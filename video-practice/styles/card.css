@@ -1,0 +1,46 @@
+body{
+    max-width: 1170px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.card-section{
+    text-align: center;
+}
+.card {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.281);
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h2 {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.card button{
+    background-color: burlywood;
+    padding: 5px 8px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: burlywood;
+}
+
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 70%;
+}
